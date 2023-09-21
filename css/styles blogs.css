@@ -1,0 +1,150 @@
+.hero{
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-top: 20px;
+}
+.texts{
+	align-items:center ;
+	justify-content: center;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	padding: 50px;
+}
+.texts h1{
+	font-size: 160px;
+}
+.texts p{
+	font-size: 28px;
+}
+.texts a{
+	display:inline-block;
+	color:#11101b;
+	border: 1px solid ;
+	width: auto;
+	padding: 12px 40px;
+	line-height: 1.4;
+	font-size: 18px; 
+	font-weight: 500;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition:all .55s ease;
+	margin-top: 30px;
+}
+.texts a:hover{
+	background: white;
+	border:1px solid white;
+}
+.list{
+	background-color: #fefefe;
+	border-radius: 30px;
+	height: fit-content;
+	min-height: 500px;
+	width: 90%;
+	padding: 30px;
+	align-items: center;
+	justify-content: start;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+.list h2{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.blog-container{
+	width: 80%;
+	align-items: center;
+	height:300px;
+	display: flex;
+	justify-content: start;
+	background-color: #FAF9F6;
+	border-radius: 20px;
+	max-height: 400px;
+	padding: 20px;;
+	max-width: 1100px;
+	filter: drop-shadow(5px 10px 8px #595959);
+	min-width: 800px;
+
+}
+.blog-image{
+	max-width: 400px;
+	max-height: fit-content;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 20px;
+}
+.blog_image{
+	border-radius: 20px;
+}
+.blog-text{
+	color: #11101b;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.blog-text h2 {
+	margin-bottom: 20px;
+}
+.blog-text p{
+	display:-webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+.blog-text a{
+	display:inline-block;
+	color:#11101b;
+	border: 1px solid ;
+	width: 200px;
+	padding: 12px 40px;
+	line-height: 1.4;
+	font-size: 18px; 
+	font-weight: 500;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition:all .55s ease;
+	margin-top: 10px;
+}
+.footer {
+	bottom: 0%;
+	width: 100%;
+	Height: 60px;
+	background: #262626;
+	z-index: 4;
+	text-align: center;
+}
+.footer p{
+	color: white;
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.list{
+		width:95%;
+		min-height: fit-content;
+		max-height: max-content;
+		justify-content: start;
+		padding-bottom: 50px;
+	}
+	.blog-container{
+	width: 95%;
+	max-width: 750px;
+	min-width: 400px;
+	height: 100%;
+	max-height: max-content;
+	flex-direction: column;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.texts h1{
+		font-size: 100px;
+		margin-bottom: 25px;
+	}
+.blog-container{
+	min-width: 300px;
+}
+}

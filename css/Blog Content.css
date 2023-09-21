@@ -1,0 +1,150 @@
+.hero{
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-top: 20px;
+}
+.texts{
+	align-items:center ;
+	justify-content: center;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	padding: 50px;
+	margin:100px;
+}
+.texts h1{
+	font-size: 60px;
+	max-width: 1600px;
+	text-align:start;
+}
+.texts p{
+	font-size: 28px;
+}
+.texts a{
+	display:inline-block;
+	color:#11101b;
+	border: 1px solid ;
+	width: auto;
+	padding: 12px 40px;
+	line-height: 1.4;
+	font-size: 18px; 
+	font-weight: 500;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition:all .55s ease;
+	margin-top: 30px;
+}
+.texts a:hover{
+	background: white;
+	border:1px solid white;
+}
+.blog-content{
+	background-color: #fefefe;
+	border-radius: 30px;
+	min-height: 500px;
+	width: 90%;
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	filter: drop-shadow(5px 10px 8px #595959);
+
+}
+.blog-container{
+	border-radius: 20px;
+	max-height: 100%;
+	padding: 20px;;
+	max-width: 1100px;
+	min-width: 800px;
+
+}
+.blog-text{
+	color: #11101b;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+.blog-text p{
+	font-size: 22px;
+}
+.blog-holder{
+	max-width: 100%;
+	max-height: 300px;
+	margin-right: 20px;
+	max-height: 300px;
+	margin: auto 0 auto 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 20px;
+	margin-bottom: 50px;
+
+}
+.blog_image{
+	font-size: 28px;
+	height: 100%;
+}
+
+.blog-text h2 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.blog-text a{
+	display:inline-block;
+	color:#11101b;
+	border: 1px solid ;
+	width: 200px;
+	padding: 12px 40px;
+	line-height: 1.4;
+	font-size: 18px; 
+	font-weight: 500;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition:all .55s ease;
+	margin-top: 30px;
+}
+.footer {
+	bottom: 0%;
+	width: 100%;
+	Height: 60px;
+	background: #262626;
+	z-index: 4;
+	text-align: center;
+}
+.footer p{
+	color: white;
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	.texts{
+		padding:0px;
+		margin-top: 20px;
+		margin-left: 50px;
+		margin-bottom: 60px;
+		width: 100%;
+	}
+	.texts h1{
+		font-size: 37px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.texts{
+		padding:0px;
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.texts h1{
+		font-size: 28px;
+	}
+}
